@@ -4,14 +4,8 @@
     margin:5px;
 }
 
-:root{
-    --margin-page: 3rem;
-}
-
-
-
-.about-me{
-    display: flex;
+html,body{
+    height: 100%;
 }
 
 img{
@@ -19,3 +13,30 @@ img{
     width: 100%;
     height: auto;
 }
+
+:root{
+    --width-page: 70%;
+    --margin-center: 0 auto;
+}
+
+.container-1{
+    width: var(--width-page);
+    margin: 3rem auto;
+}
+
+.about-me{
+    display: flex;
+}
+
+.about-me__descr{
+    padding:1rem;
+}
+
+.about-me__img{
+    width: 70%;
+}
+
+.about-me__descr__para{
+    width: 50%;
+}
+
