@@ -20,8 +20,9 @@ img{
 }
 
 .container-1{
-    width: var(--width-page);
-    margin: 3rem auto;
+    /* width: var(--width-page); */
+    /* margin: 3rem auto; */
+    background: linear-gradient(163.5deg, #578fca 60%, white 40% 100%);
 }
 
 .about-me{
