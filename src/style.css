@@ -1,3 +1,14 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./font/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: Playfair-display;
+    src: url(./font/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+
 *{
     box-sizing: border-box;
     border:2px solid red;
@@ -17,10 +28,6 @@ img{
 
 
 
-
-
-
-
 .container-1{
     background: linear-gradient(169.9deg, #578fca 60%, white 40% 100%);
 }
@@ -29,7 +36,8 @@ img{
     display: flex;
     justify-content: center;
     width: 60%;
-    margin: var(--margin-center);
+    margin: 3rem auto;
+
 }
 
 
@@ -42,17 +50,17 @@ img{
 
 
 
-
-
-
-/* THE FIRST CONTAINER: TITLE/DESCRIPTION/ICONS */
+/* FIRST CONTAINER: TITLE/DESCRIPTION/ICONS */
 
 .about-me__descr{
     padding:1rem;
+    max-width: 550px;
+    
 }
 
 .about-me__descr h1{
     padding-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .about-me__descr__para{
@@ -60,5 +68,5 @@ img{
     width: 50%;
 }
 
-/* END FIRST CONTAINER: TITLE/DESCRIPTION/ICONS */
+/* FIRST CONTAINER: TITLE/DESCRIPTION/ICONS */
 
