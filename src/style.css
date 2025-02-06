@@ -70,3 +70,28 @@ img{
 
 /* FIRST CONTAINER: TITLE/DESCRIPTION/ICONS */
 
+
+/* ICONS */
+
+.about-me__descr__icons{
+    display: flex;
+    justify-content: end;
+
+}
+
+.icon1{
+    background-image: url(./img/github-142-svgrepo-com.svg);
+    height: 50px;
+    width: 50px;
+}
+
+.icon2{
+    background-image: url(./img/linkedin-rounded-svgrepo-com.svg);
+}
+
+.icon3{
+    background-image: url(./img/twitter-154-svgrepo-com.svg);
+}
+
+
+/* FINISH ICONS */
