@@ -80,7 +80,8 @@ img{
 }
 
 .icon1{
-    background-image: url(./img/github-142-svgrepo-com.svg);
+    background-image: url('./img/github-142-svgrepo-com.svg');
+    background-size:contain;
     height: 50px;
     width: 50px;
 }
@@ -92,6 +93,7 @@ img{
 .icon3{
     background-image: url(./img/twitter-154-svgrepo-com.svg);
 }
+
 
 
 /* FINISH ICONS */
