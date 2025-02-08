@@ -11,42 +11,30 @@
 
 *{
     box-sizing: border-box;
-    border:2px solid red;
-    margin:5px;
 }
+
 
 img{
     max-width: 300px;
     width: 100%;
-    height: auto;
 }
-
-:root{
-    --width-page: 70%;
-    --margin-center: 0 auto;
-}
-
 
 
 .container-1{
     background: linear-gradient(169.9deg, #578fca 60%, white 40% 100%);
 }
 
+
+
 .about-me{
     display: flex;
     justify-content: center;
-    width: 60%;
-    margin: 3rem auto;
+    max-width: 1200px;
+    min-width: 1000px;
+    margin: 2rem auto;
 
 }
 
-
-
-
-/* FIRST CONTAINER: IMAGE */
-.about-me__img{
-    width: 70%;
-}
 
 
 
@@ -54,18 +42,21 @@ img{
 
 .about-me__descr{
     padding:1rem;
-    max-width: 550px;
-    
+    max-width: 600px;
+    align-self: center;
+    box-shadow: 2px 2px 2px 2px black;
 }
 
 .about-me__descr h1{
-    padding-bottom: 1rem;
-    margin-bottom: 2rem;
+    margin: 2rem 0 2rem 0;
+    font-size: 40px;
+    font-family: 'Roboto';
 }
 
 .about-me__descr__para{
     display: inline;
-    width: 50%;
+    font-size: 23px;
+    font-family: 'Playfair-display';
 }
 
 /* FIRST CONTAINER: TITLE/DESCRIPTION/ICONS */
@@ -76,22 +67,29 @@ img{
 .about-me__descr__icons{
     display: flex;
     justify-content: end;
-
+    margin-top: 5rem;
+    gap:1rem;
 }
 
 .icon1{
     background-image: url('./img/github-142-svgrepo-com.svg');
     background-size:contain;
-    height: 50px;
-    width: 50px;
+    height: 2rem;
+    width: 2rem;
 }
 
 .icon2{
-    background-image: url(./img/linkedin-rounded-svgrepo-com.svg);
+    background-image: url('./img/linkedin-rounded-svgrepo-com.svg');
+    background-size:contain;
+    height: 2rem;
+    width: 2rem;
 }
 
 .icon3{
-    background-image: url(./img/twitter-154-svgrepo-com.svg);
+    background-image: url('./img/twitter-154-svgrepo-com.svg');
+    background-size:contain;
+    height: 2rem;
+    width: 2rem;
 }
 
 
