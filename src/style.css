@@ -10,6 +10,8 @@
 
 *{
     box-sizing: border-box;
+    border:2px solid red;
+    margin:5px;
 }
 
 html,body{
@@ -23,8 +25,7 @@ img{
 }
 
 .container-1{
-    background: linear-gradient(169.9deg, #578fca 60%, white 40% 100%);
-    
+    background: linear-gradient(169.9deg, #578fca 537px, white 70px);
 }
 
 
@@ -36,7 +37,6 @@ img{
     min-width: 1000px;
     margin: 0 auto;
     padding:2em 0;
-
 }
 
 
