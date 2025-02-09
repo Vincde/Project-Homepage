@@ -8,20 +8,23 @@
     src: url(./font/PlayfairDisplay-VariableFont_wght.ttf);
 }
 
-
 *{
     box-sizing: border-box;
 }
 
+html,body{
+    margin:0;
+    padding:0;
+}
 
 img{
     max-width: 300px;
     width: 100%;
 }
 
-
 .container-1{
     background: linear-gradient(169.9deg, #578fca 60%, white 40% 100%);
+    
 }
 
 
@@ -31,7 +34,8 @@ img{
     justify-content: center;
     max-width: 1200px;
     min-width: 1000px;
-    margin: 2rem auto;
+    margin: 0 auto;
+    padding:2em 0;
 
 }
 
