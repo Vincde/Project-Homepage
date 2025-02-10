@@ -29,7 +29,6 @@ img{
 }
 
 
-
 .about-me{
     display: flex;
     justify-content: center;
@@ -70,7 +69,7 @@ img{
 .about-me__descr__icons{
     display: flex;
     justify-content: end;
-    margin-top: 5rem;
+    margin-top: 3rem;
     gap:1rem;
 }
 
