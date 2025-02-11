@@ -1,44 +1,467 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Getting Started</title>
-  <script defer src="main.js"></script></head>
-  <body>
-    
-    <div class="container-1"> <!--     
-          container 1 serves one purpose: instead of changing all children of about-me container 
-          we take the entire about-me container and act on it -->
-      
-      <div class="about-me">
-
-        <div class="about-me__img">
-          <img src="72c0d1a6d686ebaa2b44.jpg" alt="alternative image">
-        </div>
-        <div class="about-me__descr">
-          <h1>About me</h1>
-          <p class="about-me__descr__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ipsam id cumque accusantium aspernatur consectetur nesciunt vitae cupiditate ea commodi delectus, amet ut laboriosam itaque nam dignissimos obcaecati voluptas iusto eos velit rem ad saepe fugit ex? In, nam sit?</p>
-          <div class="about-me__descr__icons"> <div class="icon1"></div> <div class="icon2"></div> <div class="icon3"></div></div>
-        </div>
-
-      </div>
-
-      <div class="container-2">
-        <div class="my-work">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
-      </div>
-
-
-    </div>
-
-
-    <div></div>
-    <footer></footer>
-  </body>
-</html>
+<head><script defer src="main.js"></script></head>Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Module not found: Error: Can't resolve './ciso' in '/home/vinx/repos/Project-H  omepage/src'
+  ModuleNotFoundError: Module not found: Error: Can't resolve './ciso' in '/home  /vinx/repos/Project-Homepage/src'
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/Compilation.  js:2123:28
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:923:13
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:10:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:339:22
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:520:22
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:151:10
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:783:25
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:1008:8
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:1137:5
+      at /home/vinx/repos/Project-Homepage/node_modules/neo-async/async.js:6883:  13
+      at Array.<anonymous> (/home/vinx/repos/Project-Homepage/node_modules/webpa  ck/lib/NormalModuleFactory.js:1112:14)
+      at arrayEachFunc (/home/vinx/repos/Project-Homepage/node_modules/neo-async  /async.js:2517:19)
+      at Object.parallel (/home/vinx/repos/Project-Homepage/node_modules/neo-asy  nc/async.js:6858:9)
+      at NormalModuleFactory._resolveResourceErrorHints (/home/vinx/repos/Projec  t-Homepage/node_modules/webpack/lib/NormalModuleFactory.js:1036:12)
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:968:18
+      at finishWithoutResolve (/home/vinx/repos/Project-Homepage/node_modules/en  hanced-resolve/lib/Resolver.js:567:11)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:656:15
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:27:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Des  criptionFilePlugin.js:89:43
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Roo  tsPlugin.js:38:38
+      at _next2 (eval at create (/home/vinx/repos/Project-Homepage/node_modules/  tapable/lib/HookCodeFactory.js:33:10), <anonymous>:8:1)
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:31:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Con  ditionalPlugin.js:40:47
+      at _next1 (eval at create (/home/vinx/repos/Project-Homepage/node_modules/  tapable/lib/HookCodeFactory.js:33:10), <anonymous>:23:1)
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:46:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Con  ditionalPlugin.js:40:47
+      at _next0 (eval at create (/home/vinx/repos/Project-Homepage/node_modules/  tapable/lib/HookCodeFactory.js:33:10), <anonymous>:38:1)
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:60:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:27:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Des  criptionFilePlugin.js:89:43
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Dir  ectoryExistsPlugin.js:41:15
+      at process.processTicksAndRejections (node:internal/process/task_queues:81  :21)
+  Module not found: Error: Can't resolve './viso' in '/home/vinx/repos/Project-H  omepage/src'
+  ModuleNotFoundError: Module not found: Error: Can't resolve './viso' in '/home  /vinx/repos/Project-Homepage/src'
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/Compilation.  js:2123:28
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:923:13
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:10:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:339:22
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:520:22
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:151:10
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:783:25
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:1008:8
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:1137:5
+      at /home/vinx/repos/Project-Homepage/node_modules/neo-async/async.js:6883:  13
+      at Array.<anonymous> (/home/vinx/repos/Project-Homepage/node_modules/webpa  ck/lib/NormalModuleFactory.js:1112:14)
+      at arrayEachFunc (/home/vinx/repos/Project-Homepage/node_modules/neo-async  /async.js:2517:19)
+      at Object.parallel (/home/vinx/repos/Project-Homepage/node_modules/neo-asy  nc/async.js:6858:9)
+      at NormalModuleFactory._resolveResourceErrorHints (/home/vinx/repos/Projec  t-Homepage/node_modules/webpack/lib/NormalModuleFactory.js:1036:12)
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:968:18
+      at finishWithoutResolve (/home/vinx/repos/Project-Homepage/node_modules/en  hanced-resolve/lib/Resolver.js:567:11)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:656:15
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:27:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Des  criptionFilePlugin.js:89:43
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Roo  tsPlugin.js:38:38
+      at _next2 (eval at create (/home/vinx/repos/Project-Homepage/node_modules/  tapable/lib/HookCodeFactory.js:33:10), <anonymous>:8:1)
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:31:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Con  ditionalPlugin.js:40:47
+      at _next1 (eval at create (/home/vinx/repos/Project-Homepage/node_modules/  tapable/lib/HookCodeFactory.js:33:10), <anonymous>:23:1)
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:46:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Con  ditionalPlugin.js:40:47
+      at _next0 (eval at create (/home/vinx/repos/Project-Homepage/node_modules/  tapable/lib/HookCodeFactory.js:33:10), <anonymous>:38:1)
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:60:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:27:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Des  criptionFilePlugin.js:89:43
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Dir  ectoryExistsPlugin.js:41:15
+      at process.processTicksAndRejections (node:internal/process/task_queues:81  :21)
+  Module not found: Error: Can't resolve './vsdf' in '/home/vinx/repos/Project-H  omepage/src'
+  ModuleNotFoundError: Module not found: Error: Can't resolve './vsdf' in '/home  /vinx/repos/Project-Homepage/src'
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/Compilation.  js:2123:28
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:923:13
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:10:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:339:22
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:520:22
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:151:10
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:783:25
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:1008:8
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:1137:5
+      at /home/vinx/repos/Project-Homepage/node_modules/neo-async/async.js:6883:  13
+      at Array.<anonymous> (/home/vinx/repos/Project-Homepage/node_modules/webpa  ck/lib/NormalModuleFactory.js:1112:14)
+      at arrayEachFunc (/home/vinx/repos/Project-Homepage/node_modules/neo-async  /async.js:2517:19)
+      at Object.parallel (/home/vinx/repos/Project-Homepage/node_modules/neo-asy  nc/async.js:6858:9)
+      at NormalModuleFactory._resolveResourceErrorHints (/home/vinx/repos/Projec  t-Homepage/node_modules/webpack/lib/NormalModuleFactory.js:1036:12)
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:968:18
+      at finishWithoutResolve (/home/vinx/repos/Project-Homepage/node_modules/en  hanced-resolve/lib/Resolver.js:567:11)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:656:15
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:27:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Des  criptionFilePlugin.js:89:43
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Roo  tsPlugin.js:38:38
+      at _next2 (eval at create (/home/vinx/repos/Project-Homepage/node_modules/  tapable/lib/HookCodeFactory.js:33:10), <anonymous>:8:1)
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:31:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Con  ditionalPlugin.js:40:47
+      at _next1 (eval at create (/home/vinx/repos/Project-Homepage/node_modules/  tapable/lib/HookCodeFactory.js:33:10), <anonymous>:23:1)
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:46:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Con  ditionalPlugin.js:40:47
+      at _next0 (eval at create (/home/vinx/repos/Project-Homepage/node_modules/  tapable/lib/HookCodeFactory.js:33:10), <anonymous>:38:1)
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:60:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:27:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Des  criptionFilePlugin.js:89:43
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Dir  ectoryExistsPlugin.js:41:15
+      at process.processTicksAndRejections (node:internal/process/task_queues:81  :21)
+  Module not found: Error: Can't resolve './sdf' in '/home/vinx/repos/Project-Ho  mepage/src'
+  ModuleNotFoundError: Module not found: Error: Can't resolve './sdf' in '/home/  vinx/repos/Project-Homepage/src'
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/Compilation.  js:2123:28
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:923:13
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:10:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:339:22
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:520:22
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:151:10
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:783:25
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:1008:8
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:1137:5
+      at /home/vinx/repos/Project-Homepage/node_modules/neo-async/async.js:6883:  13
+      at Array.<anonymous> (/home/vinx/repos/Project-Homepage/node_modules/webpa  ck/lib/NormalModuleFactory.js:1112:14)
+      at arrayEachFunc (/home/vinx/repos/Project-Homepage/node_modules/neo-async  /async.js:2517:19)
+      at Object.parallel (/home/vinx/repos/Project-Homepage/node_modules/neo-asy  nc/async.js:6858:9)
+      at NormalModuleFactory._resolveResourceErrorHints (/home/vinx/repos/Projec  t-Homepage/node_modules/webpack/lib/NormalModuleFactory.js:1036:12)
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:968:18
+      at finishWithoutResolve (/home/vinx/repos/Project-Homepage/node_modules/en  hanced-resolve/lib/Resolver.js:567:11)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:656:15
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:27:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Des  criptionFilePlugin.js:89:43
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Roo  tsPlugin.js:38:38
+      at _next2 (eval at create (/home/vinx/repos/Project-Homepage/node_modules/  tapable/lib/HookCodeFactory.js:33:10), <anonymous>:8:1)
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:31:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Con  ditionalPlugin.js:40:47
+      at _next1 (eval at create (/home/vinx/repos/Project-Homepage/node_modules/  tapable/lib/HookCodeFactory.js:33:10), <anonymous>:23:1)
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:46:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Con  ditionalPlugin.js:40:47
+      at _next0 (eval at create (/home/vinx/repos/Project-Homepage/node_modules/  tapable/lib/HookCodeFactory.js:33:10), <anonymous>:38:1)
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:60:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:27:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Des  criptionFilePlugin.js:89:43
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Dir  ectoryExistsPlugin.js:41:15
+      at process.processTicksAndRejections (node:internal/process/task_queues:81  :21)
+  Module not found: Error: Can't resolve './dfsdf' in '/home/vinx/repos/Project-  Homepage/src'
+  ModuleNotFoundError: Module not found: Error: Can't resolve './dfsdf' in '/hom  e/vinx/repos/Project-Homepage/src'
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/Compilation.  js:2123:28
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:923:13
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:10:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:339:22
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:520:22
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:151:10
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:783:25
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:1008:8
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:1137:5
+      at /home/vinx/repos/Project-Homepage/node_modules/neo-async/async.js:6883:  13
+      at Array.<anonymous> (/home/vinx/repos/Project-Homepage/node_modules/webpa  ck/lib/NormalModuleFactory.js:1112:14)
+      at arrayEachFunc (/home/vinx/repos/Project-Homepage/node_modules/neo-async  /async.js:2517:19)
+      at Object.parallel (/home/vinx/repos/Project-Homepage/node_modules/neo-asy  nc/async.js:6858:9)
+      at NormalModuleFactory._resolveResourceErrorHints (/home/vinx/repos/Projec  t-Homepage/node_modules/webpack/lib/NormalModuleFactory.js:1036:12)
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:968:18
+      at finishWithoutResolve (/home/vinx/repos/Project-Homepage/node_modules/en  hanced-resolve/lib/Resolver.js:567:11)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:656:15
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:27:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Des  criptionFilePlugin.js:89:43
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Roo  tsPlugin.js:38:38
+      at _next2 (eval at create (/home/vinx/repos/Project-Homepage/node_modules/  tapable/lib/HookCodeFactory.js:33:10), <anonymous>:8:1)
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:31:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Con  ditionalPlugin.js:40:47
+      at _next1 (eval at create (/home/vinx/repos/Project-Homepage/node_modules/  tapable/lib/HookCodeFactory.js:33:10), <anonymous>:23:1)
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:46:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Con  ditionalPlugin.js:40:47
+      at _next0 (eval at create (/home/vinx/repos/Project-Homepage/node_modules/  tapable/lib/HookCodeFactory.js:33:10), <anonymous>:38:1)
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:60:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:27:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Des  criptionFilePlugin.js:89:43
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Dir  ectoryExistsPlugin.js:41:15
+      at process.processTicksAndRejections (node:internal/process/task_queues:81  :21)
+  Module not found: Error: Can't resolve './serwf' in '/home/vinx/repos/Project-  Homepage/src'
+  ModuleNotFoundError: Module not found: Error: Can't resolve './serwf' in '/hom  e/vinx/repos/Project-Homepage/src'
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/Compilation.  js:2123:28
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:923:13
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:10:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:339:22
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:520:22
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:151:10
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:783:25
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:1008:8
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:1137:5
+      at /home/vinx/repos/Project-Homepage/node_modules/neo-async/async.js:6883:  13
+      at Array.<anonymous> (/home/vinx/repos/Project-Homepage/node_modules/webpa  ck/lib/NormalModuleFactory.js:1112:14)
+      at arrayEachFunc (/home/vinx/repos/Project-Homepage/node_modules/neo-async  /async.js:2517:19)
+      at Object.parallel (/home/vinx/repos/Project-Homepage/node_modules/neo-asy  nc/async.js:6858:9)
+      at NormalModuleFactory._resolveResourceErrorHints (/home/vinx/repos/Projec  t-Homepage/node_modules/webpack/lib/NormalModuleFactory.js:1036:12)
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:968:18
+      at finishWithoutResolve (/home/vinx/repos/Project-Homepage/node_modules/en  hanced-resolve/lib/Resolver.js:567:11)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:656:15
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:27:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Des  criptionFilePlugin.js:89:43
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Roo  tsPlugin.js:38:38
+      at _next2 (eval at create (/home/vinx/repos/Project-Homepage/node_modules/  tapable/lib/HookCodeFactory.js:33:10), <anonymous>:8:1)
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:31:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Con  ditionalPlugin.js:40:47
+      at _next1 (eval at create (/home/vinx/repos/Project-Homepage/node_modules/  tapable/lib/HookCodeFactory.js:33:10), <anonymous>:23:1)
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:46:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Con  ditionalPlugin.js:40:47
+      at _next0 (eval at create (/home/vinx/repos/Project-Homepage/node_modules/  tapable/lib/HookCodeFactory.js:33:10), <anonymous>:38:1)
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:60:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:27:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Des  criptionFilePlugin.js:89:43
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Dir  ectoryExistsPlugin.js:41:15
+      at process.processTicksAndRejections (node:internal/process/task_queues:81  :21)
+  Module not found: Error: Can't resolve './qwe' in '/home/vinx/repos/Project-Ho  mepage/src'
+  ModuleNotFoundError: Module not found: Error: Can't resolve './qwe' in '/home/  vinx/repos/Project-Homepage/src'
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/Compilation.  js:2123:28
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:923:13
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:10:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:339:22
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:9:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:520:22
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:151:10
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:783:25
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:1008:8
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:1137:5
+      at /home/vinx/repos/Project-Homepage/node_modules/neo-async/async.js:6883:  13
+      at Array.<anonymous> (/home/vinx/repos/Project-Homepage/node_modules/webpa  ck/lib/NormalModuleFactory.js:1112:14)
+      at arrayEachFunc (/home/vinx/repos/Project-Homepage/node_modules/neo-async  /async.js:2517:19)
+      at Object.parallel (/home/vinx/repos/Project-Homepage/node_modules/neo-asy  nc/async.js:6858:9)
+      at NormalModuleFactory._resolveResourceErrorHints (/home/vinx/repos/Projec  t-Homepage/node_modules/webpack/lib/NormalModuleFactory.js:1036:12)
+      at /home/vinx/repos/Project-Homepage/node_modules/webpack/lib/NormalModule  Factory.js:968:18
+      at finishWithoutResolve (/home/vinx/repos/Project-Homepage/node_modules/en  hanced-resolve/lib/Resolver.js:567:11)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:656:15
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:27:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Des  criptionFilePlugin.js:89:43
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Roo  tsPlugin.js:38:38
+      at _next2 (eval at create (/home/vinx/repos/Project-Homepage/node_modules/  tapable/lib/HookCodeFactory.js:33:10), <anonymous>:8:1)
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:31:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Con  ditionalPlugin.js:40:47
+      at _next1 (eval at create (/home/vinx/repos/Project-Homepage/node_modules/  tapable/lib/HookCodeFactory.js:33:10), <anonymous>:23:1)
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:46:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Con  ditionalPlugin.js:40:47
+      at _next0 (eval at create (/home/vinx/repos/Project-Homepage/node_modules/  tapable/lib/HookCodeFactory.js:33:10), <anonymous>:38:1)
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:60:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:27:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Des  criptionFilePlugin.js:89:43
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Res  olver.js:718:5
+      at eval (eval at create (/home/vinx/repos/Project-Homepage/node_modules/ta  pable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)
+      at /home/vinx/repos/Project-Homepage/node_modules/enhanced-resolve/lib/Dir  ectoryExistsPlugin.js:41:15
+      at process.processTicksAndRejections (node:internal/process/task_queues:81  :21)
+  
+  - Compilation.js:2123 
+    [Project-Homepage]/[webpack]/lib/Compilation.js:2123:28
+  
+  - NormalModuleFactory.js:923 
+    [Project-Homepage]/[webpack]/lib/NormalModuleFactory.js:923:13
+  
+  
+  - NormalModuleFactory.js:339 
+    [Project-Homepage]/[webpack]/lib/NormalModuleFactory.js:339:22
+  
+  
+  - NormalModuleFactory.js:520 
+    [Project-Homepage]/[webpack]/lib/NormalModuleFactory.js:520:22
+  
+  - NormalModuleFactory.js:151 
+    [Project-Homepage]/[webpack]/lib/NormalModuleFactory.js:151:10
+  
+  - NormalModuleFactory.js:783 
+    [Project-Homepage]/[webpack]/lib/NormalModuleFactory.js:783:25
+  
+  - NormalModuleFactory.js:1008 
+    [Project-Homepage]/[webpack]/lib/NormalModuleFactory.js:1008:8
+  
+  - NormalModuleFactory.js:1137 
+    [Project-Homepage]/[webpack]/lib/NormalModuleFactory.js:1137:5
+  
+  - async.js:6883 
+    [Project-Homepage]/[neo-async]/async.js:6883:13
+  
+  - NormalModuleFactory.js:1112 Array.<anonymous>
+    [Project-Homepage]/[webpack]/lib/NormalModuleFactory.js:1112:14
+  
+  - async.js:2517 arrayEachFunc
+    [Project-Homepage]/[neo-async]/async.js:2517:19
+  
+  - async.js:6858 Object.parallel
+    [Project-Homepage]/[neo-async]/async.js:6858:9
+  
+  - NormalModuleFactory.js:1036 NormalModuleFactory._resolveResourceErrorHints
+    [Project-Homepage]/[webpack]/lib/NormalModuleFactory.js:1036:12
+  
+  - NormalModuleFactory.js:968 
+    [Project-Homepage]/[webpack]/lib/NormalModuleFactory.js:968:18
+  
+  - Resolver.js:567 finishWithoutResolve
+    [Project-Homepage]/[enhanced-resolve]/lib/Resolver.js:567:11
+  
+  - Resolver.js:656 
+    [Project-Homepage]/[enhanced-resolve]/lib/Resolver.js:656:15
+  
+  - Resolver.js:718 
+    [Project-Homepage]/[enhanced-resolve]/lib/Resolver.js:718:5
+  
+  
+  - Resolver.js:718 
+    [Project-Homepage]/[enhanced-resolve]/lib/Resolver.js:718:5
+  
+  
+  - DescriptionFilePlugin.js:89 
+    [Project-Homepage]/[enhanced-resolve]/lib/DescriptionFilePlugin.js:89:43
+  
+  - Resolver.js:718 
+    [Project-Homepage]/[enhanced-resolve]/lib/Resolver.js:718:5
+  
+  
+  - Resolver.js:718 
+    [Project-Homepage]/[enhanced-resolve]/lib/Resolver.js:718:5
+  
+  
+  - Resolver.js:718 
+    [Project-Homepage]/[enhanced-resolve]/lib/Resolver.js:718:5
+  
+  
+  - RootsPlugin.js:38 
+    [Project-Homepage]/[enhanced-resolve]/lib/RootsPlugin.js:38:38
+  
+  
+  
+  - ConditionalPlugin.js:40 
+    [Project-Homepage]/[enhanced-resolve]/lib/ConditionalPlugin.js:40:47
+  
+  
+  
+  - ConditionalPlugin.js:40 
+    [Project-Homepage]/[enhanced-resolve]/lib/ConditionalPlugin.js:40:47
+  
+  
+  
+  - Resolver.js:718 
+    [Project-Homepage]/[enhanced-resolve]/lib/Resolver.js:718:5
+  
+  
+  - DescriptionFilePlugin.js:89 
+    [Project-Homepage]/[enhanced-resolve]/lib/DescriptionFilePlugin.js:89:43
+  
+  - Resolver.js:718 
+    [Project-Homepage]/[enhanced-resolve]/lib/Resolver.js:718:5
+  
+  
+  - Resolver.js:718 
+    [Project-Homepage]/[enhanced-resolve]/lib/Resolver.js:718:5
+  
+  
+  - DirectoryExistsPlugin.js:41 
+    [Project-Homepage]/[enhanced-resolve]/lib/DirectoryExistsPlugin.js:41:15
+  
+  - task_queues:81 process.processTicksAndRejections
+    node:internal/process/task_queues:81:21
+  
+  - Module not found: Error: Can't resolve './viso' in '/home/vinx/repos/Project    -Homepage/src'
+  
+  - ModuleNotFoundError: Module not found: Error: Can't resolve './viso' in '/ho    me/vinx/repos/Project-Homepage/src'
+  
+  - Compilation.js:2123 
+    [Project-Homepage]/[webpack]/lib/Compilation.js:2123:28
+  
+  - NormalModuleFactory.js:923 
+    [Project-Homepage]/[webpack]/lib/NormalModuleFactory.js:923:13
+  
+</pre>
