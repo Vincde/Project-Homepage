@@ -109,9 +109,8 @@ html,body{
 
 /* MY WORK CONTAINER */
 
-.container-2__title,
-.my-work{
-    padding:0;
+.container-2__title{
+    padding: 0 0 2rem 140px;
     justify-content: flex-start;
 }
 /* END OF MY WORK CONTAINER */
