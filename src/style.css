@@ -109,8 +109,18 @@ html,body{
 
 /* MY WORK CONTAINER */
 
+.container-2__div{
+    padding:0 1rem 0 0;
+}
+
 .container-2__title{
-    padding: 0 0 2rem 140px;
-    justify-content: flex-start;
+    display: flex;
+    justify-content: start;
+    padding: 2rem 0 2rem 0;
+}
+
+
+.my-work{
+    padding:0;
 }
 /* END OF MY WORK CONTAINER */
