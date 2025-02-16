@@ -17,7 +17,7 @@
 img{
     display: block;
     width: 100%;
-    max-width: 50px;
+    max-width: 400px;
 }
 
 html,body{
@@ -116,11 +116,34 @@ html,body{
 .container-2__title{
     display: flex;
     justify-content: start;
-    padding: 2rem 0 2rem 0;
+    padding: 1rem 0 1rem 0;
 }
 
+/* .my-work{
+    max-width: 1000px;
+} */
 
-.my-work{
-    padding:0;
+.my-work__internal-div{
+    max-width: 970px;
+    padding:1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:20px;
 }
+
+.my-work__grid__internal{
+    display: flex;
+    justify-content:flex-end;
+}
+
+.my-work__grid__internal img{
+    max-width: 30px;
+}
+
+.my-work__grid__internal p{
+    flex-grow: 1;
+    justify-self: start;
+}
+
 /* END OF MY WORK CONTAINER */
