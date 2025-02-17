@@ -10,8 +10,8 @@
 
 *{
     box-sizing: border-box;
-    border:2px solid red;
-    margin:5px;
+    /* border:2px solid red;
+    margin:5px; */
 }
 
 img{
@@ -161,23 +161,44 @@ html,body{
 
 /* THIRD CONTAINER */
 
+.container-3{
+    background-color: #00879e;
+}
+
+.container-3 p,
+.container-3 h1{
+    margin:10px;
+}
+
+
 .container-3__main-child{
-    padding:0;
-    font-size: 24px;
+    padding:3rem;
+    gap:80px;
+    font-size: 2rem;
 }
 
 .container-3__left img{
     max-width: 30px;
 }
 
+.container-3__left > h1{
+    font-size: 48px;
+}
+
 .container-3__right img{
-    max-width: 350px;
+    max-width: 400px;
+    min-width: 350px;
 }
 
 .container-3__left__phone,
 .container-3__left__mail,
 .container-3__left__links{
     display: flex;
+    gap:10px;
+}
+
+.container-3__left__links{
+    margin-top: 30px;
 }
 
 /* END OF THIRD CONTAINER */
