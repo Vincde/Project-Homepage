@@ -10,8 +10,8 @@
 
 *{
     box-sizing: border-box;
-    /* border:2px solid red;
-    margin:5px; */
+    border:2px solid red;
+    margin:5px;
 }
 
 img{
@@ -156,3 +156,28 @@ html,body{
 }
 
 /* END OF MY WORK CONTAINER */
+
+
+
+/* THIRD CONTAINER */
+
+.container-3__main-child{
+    padding:0;
+    font-size: 24px;
+}
+
+.container-3__left img{
+    max-width: 30px;
+}
+
+.container-3__right img{
+    max-width: 350px;
+}
+
+.container-3__left__phone,
+.container-3__left__mail,
+.container-3__left__links{
+    display: flex;
+}
+
+/* END OF THIRD CONTAINER */
