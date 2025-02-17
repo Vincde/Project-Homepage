@@ -182,7 +182,7 @@ html,body{
 }
 
 .container-3__left > h1{
-    font-size: 48px;
+    font-size: 3rem;
 }
 
 .container-3__right img{
@@ -199,6 +199,7 @@ html,body{
 
 .container-3__left__links{
     margin-top: 30px;
+    gap:20px;
 }
 
 /* END OF THIRD CONTAINER */
