@@ -69,6 +69,17 @@ html,body{
     font-family: 'Playfair-display';
 }
 
+.about-me__img{
+    position:relative;
+}
+
+.about-me__name{
+    font-size: 44px;
+    color:white;
+    position: absolute;
+    top:400px;
+}
+
 /* FIRST CONTAINER: TITLE/DESCRIPTION/ICONS */
 
 
@@ -203,3 +214,8 @@ html,body{
 }
 
 /* END OF THIRD CONTAINER */
+
+
+@media (max-width: 1000px) and (min-width: 500px) {
+
+}
