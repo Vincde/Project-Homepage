@@ -20,6 +20,11 @@ img{
     max-width: 400px;
 }
 
+.tablet-design-img{
+    visibility: hidden;
+    display: none;
+}
+
 html,body{
     margin:0;
     padding:0;
@@ -218,4 +223,27 @@ html,body{
 
 @media (max-width: 1000px) and (min-width: 500px) {
 
+    .tablet-design-img{
+        max-width: 450px;
+        max-height: 450px;
+        visibility: visible;
+        display: block;
+        float: left;
+    }
+
+    .about-me__img img{
+        visibility: hidden;
+        display: none;
+    }
+
+    .about-me__descr__para{
+        font-size: 1.8rem;
+    }
+
+    .about-me__name{
+        width: 360px;
+        font-size: 52px;
+        top:0px;
+        left:350px;
+    }
 }
