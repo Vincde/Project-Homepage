@@ -232,8 +232,9 @@ html,body{
     }
 
     .about-me__img img{
-        visibility: hidden;
         display: none;
+        visibility: hidden;
+        position: static;
     }
 
     .about-me__descr h1{
