@@ -10,8 +10,8 @@
 
 *{
     box-sizing: border-box;
-    border:2px solid red;
-    margin:5px;
+    /* border:2px solid red;
+    margin:5px; */
 }
 
 img{
@@ -236,14 +236,28 @@ html,body{
         display: none;
     }
 
+    .about-me__descr h1{
+        margin-top: 100px;
+    }
+
     .about-me__descr__para{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .about-me__name{
         width: 360px;
         font-size: 52px;
-        top:0px;
-        left:350px;
+        top:20px;
+        left:250px;
+    }
+
+    .main-container{
+        min-width: 300px;
+    }
+}
+
+@media (max-width:660px) and (min-width:500px) {
+    .about-me__name{
+        left:15px;
     }
 }
