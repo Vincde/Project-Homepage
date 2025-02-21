@@ -264,6 +264,15 @@ html,body{
     img{
         max-width: 450px;
     }
+
+    .container-2__div.main-container{
+        justify-content: flex-start;
+    }
+
+    .container-2__title.main-container{
+        margin:0 0 0 40px;
+    }
+
    
 }
 
