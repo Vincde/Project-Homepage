@@ -273,6 +273,14 @@ html,body{
         margin:0 0 0 40px;
     }
 
+    .container-3__right img{
+        max-width: 200px;
+    }
+
+    .container-3__main-child{
+        padding:1rem;
+        gap:10px;
+    }
    
 }
 
