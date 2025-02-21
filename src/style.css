@@ -10,8 +10,8 @@
 
 *{
     box-sizing: border-box;
-    /* border:2px solid red;
-    margin:5px; */
+    border:2px solid red;
+    margin:5px;
 }
 
 img{
@@ -253,8 +253,18 @@ html,body{
     }
 
     .main-container{
-        min-width: 300px;
+        min-width: 100px;
     }
+
+    .my-work__child-div{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    img{
+        max-width: 450px;
+    }
+   
 }
 
 @media (max-width:660px) and (min-width:500px) {
