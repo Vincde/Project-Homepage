@@ -10,8 +10,8 @@
 
 *{
     box-sizing: border-box;
-    border:2px solid red;
-    margin:5px;
+    /* border:2px solid red;
+    margin:5px; */
 }
 
 img{
@@ -273,13 +273,28 @@ html,body{
         margin:0 0 0 40px;
     }
 
+    .container-3__left{
+        max-width: 450px;
+        min-width: 300px;
+        color:white;
+    }
+
+    .container-3__right{
+        max-width: 450px;
+    }
+
     .container-3__right img{
-        max-width: 200px;
+        min-width: auto;
+        max-width: 450px;
     }
 
     .container-3__main-child{
         padding:1rem;
-        gap:10px;
+        gap:0;
+    }
+
+    .container-3__left__mail > p{
+        font-size: 1.5rem;
     }
    
 }
