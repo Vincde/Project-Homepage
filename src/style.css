@@ -308,11 +308,15 @@ html,body{
 @media (max-width: 500px) {
     .main-container{
         min-width: auto;
+    }
+    .about-me{
         flex-direction: column;
     }
+
     .about-me__img img{
         margin:0 auto;
     }
+    
     .about-me__name{
         left: 0px;
         top:170px;
@@ -320,6 +324,11 @@ html,body{
 
     .about-me__descr__icons{
         justify-content: center;
+    }
+
+    .my-work__child-div{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6,1fr);
     }
 }
 
