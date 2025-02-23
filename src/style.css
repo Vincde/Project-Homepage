@@ -10,8 +10,8 @@
 
 *{
     box-sizing: border-box;
-    /* border:2px solid red;
-    margin:5px; */
+    border:2px solid red;
+    margin:5px;
 }
 
 img{
@@ -302,5 +302,35 @@ html,body{
 @media (max-width:660px) and (min-width:500px) {
     .about-me__name{
         left:15px;
+    }
+}
+
+@media (max-width: 500px) {
+    .main-container{
+        min-width: auto;
+        flex-direction: column;
+    }
+    .about-me__img img{
+        margin:0 auto;
+    }
+    .about-me__name{
+        left: 0px;
+        top:170px;
+    }
+
+    .about-me__descr__icons{
+        justify-content: center;
+    }
+}
+
+
+
+/* SINGLE MEDIA QUERY */
+
+@media (min-width:367px) and (max-width:500px) {
+    .about-me__name{
+        width: 150px;
+        left:15px;
+        top:350px;
     }
 }
